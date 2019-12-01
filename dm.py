@@ -10,7 +10,7 @@ df = pd.read_csv("heart.csv")
 # printing Head
 print(df.head())
 
-
+#changing categorical variables to dummy variables
 a = pd.get_dummies(df['cp'], prefix="cp")
 b = pd.get_dummies(df['thal'], prefix="thal")
 c = pd.get_dummies(df['slope'], prefix="slope")
