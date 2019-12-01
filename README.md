@@ -7,5 +7,8 @@ install:
   numpy
   matplotlib
   sklearn
+  
+  ignore dm2.py file
+  run as ->python3 dm.py
 
 
